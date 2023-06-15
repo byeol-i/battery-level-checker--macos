@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		949595662A3B284B00BC48F6 /* battery_level_checker__macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949595652A3B284B00BC48F6 /* battery_level_checker__macosApp.swift */; };
+		949595682A3B284B00BC48F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949595672A3B284B00BC48F6 /* ContentView.swift */; };
+		9495956A2A3B284C00BC48F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949595692A3B284C00BC48F6 /* Assets.xcassets */; };
+		9495956D2A3B284C00BC48F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9495956C2A3B284C00BC48F6 /* Preview Assets.xcassets */; };
+		949595782A3B284C00BC48F6 /* battery_level_checker__macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949595772A3B284C00BC48F6 /* battery_level_checker__macosTests.swift */; };
+		949595822A3B284C00BC48F6 /* battery_level_checker__macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949595812A3B284C00BC48F6 /* battery_level_checker__macosUITests.swift */; };
+		949595842A3B284C00BC48F6 /* battery_level_checker__macosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949595832A3B284C00BC48F6 /* battery_level_checker__macosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		949595742A3B284C00BC48F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9495955A2A3B284B00BC48F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 949595612A3B284B00BC48F6;
+			remoteInfo = "battery-level-checker--macos";
+		};
+		9495957E2A3B284C00BC48F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9495955A2A3B284B00BC48F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 949595612A3B284B00BC48F6;
+			remoteInfo = "battery-level-checker--macos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		949595622A3B284B00BC48F6 /* battery-level-checker--macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "battery-level-checker--macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949595652A3B284B00BC48F6 /* battery_level_checker__macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battery_level_checker__macosApp.swift; sourceTree = "<group>"; };
+		949595672A3B284B00BC48F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		949595692A3B284C00BC48F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9495956C2A3B284C00BC48F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9495956E2A3B284C00BC48F6 /* battery_level_checker__macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = battery_level_checker__macos.entitlements; sourceTree = "<group>"; };
+		949595732A3B284C00BC48F6 /* battery-level-checker--macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "battery-level-checker--macosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949595772A3B284C00BC48F6 /* battery_level_checker__macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battery_level_checker__macosTests.swift; sourceTree = "<group>"; };
+		9495957D2A3B284C00BC48F6 /* battery-level-checker--macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "battery-level-checker--macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		949595812A3B284C00BC48F6 /* battery_level_checker__macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battery_level_checker__macosUITests.swift; sourceTree = "<group>"; };
+		949595832A3B284C00BC48F6 /* battery_level_checker__macosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = battery_level_checker__macosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9495955F2A3B284B00BC48F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949595702A3B284C00BC48F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495957A2A3B284C00BC48F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		949595592A3B284B00BC48F6 = {
+			isa = PBXGroup;
+			children = (
+				949595642A3B284B00BC48F6 /* battery-level-checker--macos */,
+				949595762A3B284C00BC48F6 /* battery-level-checker--macosTests */,
+				949595802A3B284C00BC48F6 /* battery-level-checker--macosUITests */,
+				949595632A3B284B00BC48F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		949595632A3B284B00BC48F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				949595622A3B284B00BC48F6 /* battery-level-checker--macos.app */,
+				949595732A3B284C00BC48F6 /* battery-level-checker--macosTests.xctest */,
+				9495957D2A3B284C00BC48F6 /* battery-level-checker--macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		949595642A3B284B00BC48F6 /* battery-level-checker--macos */ = {
+			isa = PBXGroup;
+			children = (
+				949595652A3B284B00BC48F6 /* battery_level_checker__macosApp.swift */,
+				949595672A3B284B00BC48F6 /* ContentView.swift */,
+				949595692A3B284C00BC48F6 /* Assets.xcassets */,
+				9495956E2A3B284C00BC48F6 /* battery_level_checker__macos.entitlements */,
+				9495956B2A3B284C00BC48F6 /* Preview Content */,
+			);
+			path = "battery-level-checker--macos";
+			sourceTree = "<group>";
+		};
+		9495956B2A3B284C00BC48F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9495956C2A3B284C00BC48F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		949595762A3B284C00BC48F6 /* battery-level-checker--macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				949595772A3B284C00BC48F6 /* battery_level_checker__macosTests.swift */,
+			);
+			path = "battery-level-checker--macosTests";
+			sourceTree = "<group>";
+		};
+		949595802A3B284C00BC48F6 /* battery-level-checker--macosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				949595812A3B284C00BC48F6 /* battery_level_checker__macosUITests.swift */,
+				949595832A3B284C00BC48F6 /* battery_level_checker__macosUITestsLaunchTests.swift */,
+			);
+			path = "battery-level-checker--macosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		949595612A3B284B00BC48F6 /* battery-level-checker--macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949595872A3B284C00BC48F6 /* Build configuration list for PBXNativeTarget "battery-level-checker--macos" */;
+			buildPhases = (
+				9495955E2A3B284B00BC48F6 /* Sources */,
+				9495955F2A3B284B00BC48F6 /* Frameworks */,
+				949595602A3B284B00BC48F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "battery-level-checker--macos";
+			productName = "battery-level-checker--macos";
+			productReference = 949595622A3B284B00BC48F6 /* battery-level-checker--macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		949595722A3B284C00BC48F6 /* battery-level-checker--macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9495958A2A3B284C00BC48F6 /* Build configuration list for PBXNativeTarget "battery-level-checker--macosTests" */;
+			buildPhases = (
+				9495956F2A3B284C00BC48F6 /* Sources */,
+				949595702A3B284C00BC48F6 /* Frameworks */,
+				949595712A3B284C00BC48F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				949595752A3B284C00BC48F6 /* PBXTargetDependency */,
+			);
+			name = "battery-level-checker--macosTests";
+			productName = "battery-level-checker--macosTests";
+			productReference = 949595732A3B284C00BC48F6 /* battery-level-checker--macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9495957C2A3B284C00BC48F6 /* battery-level-checker--macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9495958D2A3B284C00BC48F6 /* Build configuration list for PBXNativeTarget "battery-level-checker--macosUITests" */;
+			buildPhases = (
+				949595792A3B284C00BC48F6 /* Sources */,
+				9495957A2A3B284C00BC48F6 /* Frameworks */,
+				9495957B2A3B284C00BC48F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9495957F2A3B284C00BC48F6 /* PBXTargetDependency */,
+			);
+			name = "battery-level-checker--macosUITests";
+			productName = "battery-level-checker--macosUITests";
+			productReference = 9495957D2A3B284C00BC48F6 /* battery-level-checker--macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9495955A2A3B284B00BC48F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					949595612A3B284B00BC48F6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					949595722A3B284C00BC48F6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 949595612A3B284B00BC48F6;
+					};
+					9495957C2A3B284C00BC48F6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 949595612A3B284B00BC48F6;
+					};
+				};
+			};
+			buildConfigurationList = 9495955D2A3B284B00BC48F6 /* Build configuration list for PBXProject "battery-level-checker--macos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 949595592A3B284B00BC48F6;
+			productRefGroup = 949595632A3B284B00BC48F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				949595612A3B284B00BC48F6 /* battery-level-checker--macos */,
+				949595722A3B284C00BC48F6 /* battery-level-checker--macosTests */,
+				9495957C2A3B284C00BC48F6 /* battery-level-checker--macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		949595602A3B284B00BC48F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9495956D2A3B284C00BC48F6 /* Preview Assets.xcassets in Resources */,
+				9495956A2A3B284C00BC48F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949595712A3B284C00BC48F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495957B2A3B284C00BC48F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9495955E2A3B284B00BC48F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949595682A3B284B00BC48F6 /* ContentView.swift in Sources */,
+				949595662A3B284B00BC48F6 /* battery_level_checker__macosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9495956F2A3B284C00BC48F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949595782A3B284C00BC48F6 /* battery_level_checker__macosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949595792A3B284C00BC48F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949595822A3B284C00BC48F6 /* battery_level_checker__macosUITests.swift in Sources */,
+				949595842A3B284C00BC48F6 /* battery_level_checker__macosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		949595752A3B284C00BC48F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 949595612A3B284B00BC48F6 /* battery-level-checker--macos */;
+			targetProxy = 949595742A3B284C00BC48F6 /* PBXContainerItemProxy */;
+		};
+		9495957F2A3B284C00BC48F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 949595612A3B284B00BC48F6 /* battery-level-checker--macos */;
+			targetProxy = 9495957E2A3B284C00BC48F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		949595852A3B284C00BC48F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		949595862A3B284C00BC48F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		949595882A3B284C00BC48F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "battery-level-checker--macos/battery_level_checker__macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"battery-level-checker--macos/Preview Content\"";
+				DEVELOPMENT_TEAM = TGTD26Z94Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byeol-i.battery-level-checker--macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		949595892A3B284C00BC48F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "battery-level-checker--macos/battery_level_checker__macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"battery-level-checker--macos/Preview Content\"";
+				DEVELOPMENT_TEAM = TGTD26Z94Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byeol-i.battery-level-checker--macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9495958B2A3B284C00BC48F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGTD26Z94Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byeol-i.battery-level-checker--macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/battery-level-checker--macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/battery-level-checker--macos";
+			};
+			name = Debug;
+		};
+		9495958C2A3B284C00BC48F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGTD26Z94Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byeol-i.battery-level-checker--macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/battery-level-checker--macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/battery-level-checker--macos";
+			};
+			name = Release;
+		};
+		9495958E2A3B284C00BC48F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGTD26Z94Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byeol-i.battery-level-checker--macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "battery-level-checker--macos";
+			};
+			name = Debug;
+		};
+		9495958F2A3B284C00BC48F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TGTD26Z94Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "byeol-i.battery-level-checker--macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "battery-level-checker--macos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9495955D2A3B284B00BC48F6 /* Build configuration list for PBXProject "battery-level-checker--macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949595852A3B284C00BC48F6 /* Debug */,
+				949595862A3B284C00BC48F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949595872A3B284C00BC48F6 /* Build configuration list for PBXNativeTarget "battery-level-checker--macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949595882A3B284C00BC48F6 /* Debug */,
+				949595892A3B284C00BC48F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9495958A2A3B284C00BC48F6 /* Build configuration list for PBXNativeTarget "battery-level-checker--macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9495958B2A3B284C00BC48F6 /* Debug */,
+				9495958C2A3B284C00BC48F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9495958D2A3B284C00BC48F6 /* Build configuration list for PBXNativeTarget "battery-level-checker--macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9495958E2A3B284C00BC48F6 /* Debug */,
+				9495958F2A3B284C00BC48F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9495955A2A3B284B00BC48F6 /* Project object */;
+}
